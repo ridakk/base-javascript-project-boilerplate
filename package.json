@@ -12,11 +12,12 @@
     "url": "git+https://github.com/ridakk/base-javascript-project-boilerplate.git"
   },
   "keywords": [
-    "JavaScript",
-    "Boilerplate",
-    "Eslint",
+    "javascript",
+    "boilerplate",
+    "eslint",
     "commitlint",
-    "Husky"
+    "husky",
+    "standard-version"
   ],
   "author": "Kadir Goktas",
   "license": "MIT",
