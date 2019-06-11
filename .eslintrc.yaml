@@ -1,0 +1,38 @@
+---
+env:
+  node: true
+  es6: true
+
+plugins:
+  - import
+  - security
+  - dependencies
+  - promise
+
+extends:
+  - eslint:recommended
+  - airbnb-base
+  - plugin:security/recommended
+  - plugin:node/recommended
+
+parserOptions:
+  sourceType: script
+
+rules:
+  indent:
+    - 2
+    - 2
+  eol-last:
+    - 2
+    - always
+  arrow-body-style:
+    - 2
+    - always
+# disable requiring trailing comma for function declarations and function calls
+  comma-dangle:
+    - 2
+    - arrays: 'always-multiline'
+      objects: 'always-multiline'
+      imports: 'always-multiline'
+      exports: 'always-multiline'
+      functions: 'ignore'

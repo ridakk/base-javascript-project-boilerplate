@@ -1,0 +1,44 @@
+{
+  "name": "base-javascript-project-boilerplate",
+  "version": "1.0.0",
+  "description": "Base JavaScript Project Boilerplate",
+  "main": "index.js",
+  "scripts": {
+    "lint": "eslint ."
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ridakk/base-javascript-project-boilerplate.git"
+  },
+  "keywords": [
+    "JavaScript",
+    "Boilerplate",
+    "Eslint",
+    "commitlint",
+    "Husky"
+  ],
+  "author": "Kadir Goktas",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/ridakk/base-javascript-project-boilerplate/issues"
+  },
+  "homepage": "https://github.com/ridakk/base-javascript-project-boilerplate#readme",
+  "husky": {
+    "hooks": {
+      "commit-msg": "commitlint -E HUSKY_GIT_PARAMS"
+    }
+  },
+  "devDependencies": {
+    "@commitlint/cli": "^8.0.0",
+    "@commitlint/config-conventional": "^8.0.0",
+    "eslint": "^5.16.0",
+    "eslint-config-airbnb-base": "^13.1.0",
+    "eslint-plugin-dependencies": "^2.4.0",
+    "eslint-plugin-import": "^2.17.3",
+    "eslint-plugin-node": "^9.1.0",
+    "eslint-plugin-promise": "^4.1.1",
+    "eslint-plugin-security": "^1.4.0",
+    "eslint-plugin-standard": "^4.0.0",
+    "husky": "^2.4.0"
+  }
+}
