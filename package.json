@@ -1,6 +1,6 @@
 {
   "name": "base-javascript-project-boilerplate",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Base JavaScript Project Boilerplate",
   "main": "index.js",
   "scripts": {
