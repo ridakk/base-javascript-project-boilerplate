@@ -31,11 +31,11 @@
     }
   },
   "devDependencies": {
-    "@commitlint/cli": "^8.0.0",
+    "@commitlint/cli": "^8.1.0",
     "@commitlint/config-conventional": "^8.0.0",
     "eslint": "^5.16.0",
-    "eslint-config-bundle": "^1.0.0",
     "eslint-config-airbnb-base": "^13.1.0",
+    "eslint-config-bundle": "^1.0.0",
     "eslint-plugin-dependencies": "^2.4.0",
     "eslint-plugin-import": "^2.17.3",
     "eslint-plugin-node": "^9.1.0",
