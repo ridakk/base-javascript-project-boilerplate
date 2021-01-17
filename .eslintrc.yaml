@@ -4,4 +4,4 @@ env:
   es6: true
 
 extends:
-  - bundle/env/core
+  - bundle/env/core.yaml
