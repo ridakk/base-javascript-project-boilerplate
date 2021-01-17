@@ -1,6 +1,6 @@
 {
   "name": "base-javascript-project-boilerplate",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "Base JavaScript Project Boilerplate",
   "main": "index.js",
   "scripts": {
@@ -31,17 +31,17 @@
     }
   },
   "devDependencies": {
-    "@commitlint/cli": "^8.1.0",
-    "@commitlint/config-conventional": "^8.0.0",
-    "eslint": "^5.16.0",
-    "eslint-config-airbnb-base": "^13.1.0",
-    "eslint-config-bundle": "^1.0.0",
+    "@commitlint/cli": "^11.0.0",
+    "@commitlint/config-conventional": "^11.0.0",
+    "eslint": "^7.18.0",
+    "eslint-config-airbnb-base": "^14.2.1",
     "eslint-plugin-dependencies": "^2.4.0",
-    "eslint-plugin-import": "^2.17.3",
-    "eslint-plugin-node": "^9.1.0",
-    "eslint-plugin-promise": "^4.1.1",
+    "eslint-plugin-import": "^2.22.1",
+    "eslint-plugin-json": "^2.1.2",
+    "eslint-plugin-node": "^11.1.0",
+    "eslint-plugin-promise": "^4.2.1",
     "eslint-plugin-security": "^1.4.0",
-    "husky": "^2.4.0",
-    "standard-version": "^8.0.1"
+    "husky": "^4.3.8",
+    "standard-version": "^9.1.0"
   }
 }
